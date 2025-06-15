@@ -1,0 +1,11 @@
+{
+  "words": ["mouse", "man", "elephant", "madam", "car"],
+  "filters": {
+    "startsWith": "m",
+    "minLength": 5
+  },
+  "expected": {
+    "startsWith": 3,
+    "minLength": ["mouse", "elephant", "madam"]
+  }
+}

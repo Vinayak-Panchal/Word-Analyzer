@@ -1,0 +1,9 @@
+com\assignment\wordanalyze\WordAnalyzerApplication.class
+com\assignment\wordanalyze\rules\StartsWithRule.class
+com\assignment\wordanalyze\dto\FilterRequest.class
+com\assignment\wordanalyze\service\WordAnalyzeService.class
+com\assignment\wordanalyze\controller\WordAnalyzeController.class
+com\assignment\wordanalyze\rules\WordFilterRule.class
+com\assignment\wordanalyze\dto\FilterResponse.class
+com\assignment\wordanalyze\rules\MinLengthRule.class
+com\assignment\wordanalyze\exception\GlobalExceptionHandler.class

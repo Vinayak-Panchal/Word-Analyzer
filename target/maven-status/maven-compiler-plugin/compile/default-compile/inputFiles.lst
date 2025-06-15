@@ -1,0 +1,9 @@
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\controller\WordAnalyzeController.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\dto\FilterRequest.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\dto\FilterResponse.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\exception\GlobalExceptionHandler.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\rules\MinLengthRule.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\rules\StartsWithRule.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\rules\WordFilterRule.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\service\WordAnalyzeService.java
+C:\Users\vinay\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\WordAnalyzer\src\main\java\com\assignment\wordanalyze\WordAnalyzerApplication.java

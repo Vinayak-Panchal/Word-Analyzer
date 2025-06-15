@@ -1,0 +1,59 @@
+openapi: 3.0.1
+info:
+  title: Word Analyzer API
+  version: 1.0.0
+  description: API to analyze and filter words based on dynamic rules
+paths:
+  /api/words/analyze:
+    post:
+      summary: Analyze words
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                words:
+                  type: array
+                  items:
+                    type: string
+                  description: List of words to analyze
+                filters:
+                  type: object
+                  properties:
+                    startsWith:
+                      type: string
+                      example: "a"
+                    minLength:
+                      type: integer
+                      example: 5
+                  description: Filtering conditions like prefix and length
+            example:
+              words: ["apple", "banana", "apricot", "ant"]
+              filters:
+                startsWith: "a"
+                minLength: 6
+      responses:
+        '200':
+          description: Successful word filtering
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: object
+                    properties:
+                      startsWith:
+                        type: integer
+                        example: 3
+                      minLength:
+                        type: array
+                        items:
+                          type: string
+                        example: ["apricot"]
+        '400':
+          description: Invalid request payload
+        '500':
+          description: Server error or unexpected failure
