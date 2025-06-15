@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.assignment.wordanalyze.TestController
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.48 s -- in com.assignment.wordanalyze.TestController
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.43 s -- in com.assignment.wordanalyze.TestController

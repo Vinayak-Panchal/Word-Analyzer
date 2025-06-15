@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+WordAnalyzer,com.assignment.wordanalyze,WordAnalyzerApplication,0,8,0,0,0,3,0,2,0,2
+WordAnalyzer,com.assignment.wordanalyze.dto,FilterResponse,0,7,0,0,0,2,0,1,0,1
+WordAnalyzer,com.assignment.wordanalyze.rules,StartsWithRule,0,40,1,3,0,6,1,6,0,5
+WordAnalyzer,com.assignment.wordanalyze.rules,MinLengthRule,0,36,1,3,0,5,1,6,0,5
+WordAnalyzer,com.assignment.wordanalyze.exception,GlobalExceptionHandler,0,46,0,2,0,9,0,4,0,3
+WordAnalyzer,com.assignment.wordanalyze.service,WordAnalyzeService,0,36,1,3,0,7,1,2,0,1
+WordAnalyzer,com.assignment.wordanalyze.controller,WordAnalyzeController,0,6,0,0,0,1,0,1,0,1
